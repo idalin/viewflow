@@ -13,17 +13,17 @@ msgstr ""
 #: viewflow/activation.py:33
 msgctxt "STATUS"
 msgid "Assigned"
-msgstr "分配"
+msgstr "已分配"
 
 #: viewflow/activation.py:34
 msgctxt "STATUS"
 msgid "Canceled"
-msgstr "取消"
+msgstr "已取消"
 
 #: viewflow/activation.py:35
 msgctxt "STATUS"
 msgid "Done"
-msgstr "完成"
+msgstr "已完成"
 
 #: viewflow/activation.py:36
 msgctxt "STATUS"
@@ -38,26 +38,26 @@ msgstr "新"
 #: viewflow/activation.py:38
 msgctxt "STATUS"
 msgid "Prepared"
-msgstr "准备"
+msgstr "已准备"
 
 #: viewflow/activation.py:39
 msgctxt "STATUS"
 msgid "Scheduled"
-msgstr "计划"
+msgstr "已计划"
 
 #: viewflow/activation.py:40
 msgctxt "STATUS"
 msgid "Started"
-msgstr "入门"
+msgstr "已启动"
 
 #: viewflow/activation.py:41
 msgctxt "STATUS"
 msgid "Unripe"
-msgstr ""
+msgstr "未准备"
 
 #: viewflow/flow/views/actions.py:114
 msgid "Undo"
-msgstr "解开"
+msgstr "撤销"
 
 #: viewflow/flow/views/actions.py:123
 #, python-brace-format
@@ -77,7 +77,7 @@ msgstr "任务{task}已被取消。"
 
 #: viewflow/flow/views/actions.py:146
 msgid "Perform"
-msgstr "演出"
+msgstr "执行"
 
 #: viewflow/flow/views/actions.py:162
 msgid "Activate Next"
@@ -149,7 +149,7 @@ msgstr "所有者"
 #: viewflow/frontend/templates/viewflow/flow/base_task.html:41
 #: viewflow/models.py:158
 msgid "Permission"
-msgstr "允许"
+msgstr "权限"
 
 #: viewflow/frontend/templates/viewflow/flow/base_task.html:49
 #: viewflow/models.py:18 viewflow/models.py:79
@@ -162,18 +162,18 @@ msgstr "创建"
 #: viewflow/frontend/templates/viewflow/flow/queue.html:13
 #: viewflow/models.py:80
 msgid "Started"
-msgstr "入门"
+msgstr "开始"
 
 #: viewflow/frontend/templates/viewflow/flow/base_task.html:57
 #: viewflow/frontend/templates/viewflow/flow/process_detail.html:22
 #: viewflow/frontend/templates/viewflow/flow/queue.html:14
 #: viewflow/models.py:19 viewflow/models.py:81
 msgid "Finished"
-msgstr "成品"
+msgstr "完成"
 
 #: viewflow/frontend/templates/viewflow/flow/base_task.html:65
 msgid "Previous tasks"
-msgstr "以前的任务"
+msgstr "上一个任务"
 
 #: viewflow/frontend/templates/viewflow/flow/base_task.html:74
 msgid "Next tasks"
@@ -278,7 +278,7 @@ msgstr "分配并继续此过程"
 
 #: viewflow/frontend/templates/viewflow/flow/task_detail.html:12
 msgid "Administration"
-msgstr "行政"
+msgstr "管理"
 
 #: viewflow/frontend/templates/viewflow/flow/task_detail.html:23
 #: viewflow/frontend/templates/viewflow/flow/task_unassign.html:5
@@ -326,7 +326,7 @@ msgstr "概要"
 
 #: viewflow/frontend/templates/viewflow/site_task_action.html:29
 msgid "No task selected"
-msgstr "未选任务"
+msgstr "没有选中任务"
 
 #: viewflow/frontend/views.py:165 viewflow/frontend/views.py:211
 #: viewflow/frontend/views.py:256
